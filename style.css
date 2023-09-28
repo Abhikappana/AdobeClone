@@ -192,7 +192,7 @@ body{
     justify-content: center;
     margin:15px;
     width:40%;
-    height:300px;
+    height:600px;
     background:linear-gradient(163deg, rgb(193, 191, 224) 0%, rgb(183, 47, 247) 0%, rgba(0,64,255,1) 100%);
     border-radius: 6px;
     padding:  30px;
@@ -206,7 +206,7 @@ body{
     position: relative;
     margin:15px;
     width:45%;
-    height:300px;
+    height:600px;
     background:linear-gradient(163deg, rgba(2,0,36,1) 0%, rgb(208, 255, 1) 0%, rgb(0, 238, 255) 100%);
     border-radius: 6px;
     padding:  30px;
@@ -219,7 +219,7 @@ body{
     position: relative;
     margin:15px;
     width:50%;
-    height:300px;
+    height:600px;
     background:linear-gradient(163deg, rgba(2,0,36,1) 0%, rgb(255, 0, 0) 0%, rgb(203, 214, 245) 100%);
     border-radius: 6px;
     padding:  30px;
@@ -232,7 +232,7 @@ body{
     position: relative;
     margin:20px;
     width:35%;
-    height:300px;
+    height:600px;
     background:linear-gradient(163deg, rgb(149, 146, 205) 0%, rgb(240, 110, 136) 0%, rgb(227, 110, 1) 100%);
     border-radius: 6px;
     padding: 30px;
@@ -265,7 +265,24 @@ body{
     font-size: .8em;
     padding: 20px;  
 }
+.section2 .contents .card1 img{
+    padding:50px 70px;
 
+   
+}
+.section2 .contents .card2 img{
+    width: 440px;
+    padding: 7px 150px;
+}
+.section2 .contents .card3 img{
+    
+    padding: 50px 160px;
+}
+.section2 .contents .card4 img{
+    
+    padding: 60px 30px;
+    
+}
 .section2 .contents .desc a:hover{
     color:aliceblue
 }

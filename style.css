@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200&family=Mooli&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    
+
+   
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-bar{
+    width:100%;
+    height:60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    box-shadow: 0.01px 0.01px 10px;
+}
+
+
+.logo{
+    padding: 30px;
+    height: 30px;
+    display: flex;
+    width:fit-content;
+    cursor: pointer;
+}
+
+.logo img:hover{
+    opacity: 0.5;
+    height:31px;
+}
+
+.login a,
+.nav-items ul li{
+    width:fit-content;
+    display: inline;
+    list-style: none;
+    font-size: 1em; 
+}
+
+.nav-bar .search .searchbox{
+    padding: 10px;
+    width:200px;
+    margin-left: 10px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: #000000 1px 1px 2px  inset;
+    
+}
+
+.nav-bar .search i{
+    padding-left: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.login a,
+.nav-items ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color:black;
+}
+
+.login a:hover,
+.nav-items  li a:hover{
+    color: rgb(10, 57, 166);
+    font-size: 1.1em;
+}
+
+.main{
+    width: 100%;
+    height:650px ;
+}
+
+.main .home {
+    display: flex;
+    width:100%;
+    height:650px;
+} 
+
+
+.main .home .content{
+    display: block;
+    position: absolute;
+    width:50%;
+   
+    left:5%;
+    justify-content: center;
+    align-items: center;
+    margin:150px 100px 5px 5px;
+    
+}
+
+.home .content h1{
+    font-size: 2.7em;
+    padding: 5px;
+}
+
+.home .content h1:hover{
+    color:#ff0000;
+    font-size: 2.75em;
+}
+.home .content p{
+    font-size: 1.2em;
+    padding: 15px;
+}
+.home .content p:hover{
+    color:#7a04d4;
+    font-size: 1.25em;
+}
+.home .content .btn{
+    width: 140px;
+    height: 35px;
+    border-radius: 40px;
+    border: none;
+    background:blue;
+    font-size: 1em;
+    color: #ffffff;
+    margin: 5px 5px 10px;
+    margin-left: 30px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+}
+.home .content .btn:hover{
+    color: aqua;
+    background: rgb(47, 47, 255);
+    box-shadow: 1px 1px 1px black;
+}
+
+.home .content a{
+    text-decoration:underline;
+    font-size: .8em;
+    width: 2px;
+    margin-left: 40px;
+}
+.home .content a:hover{
+    color:#440175
+}
+
+.nav2{ 
+   width: 100%;
+    height:70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.nav2 p{
+    display: flex;
+    position:absolute;
+    justify-content: center;
+    margin: 10px;
+}
+.nav2 .links ul{
+    margin: 35px;
+}
+.nav2 .links ul li {
+    margin-top: 20px;
+    padding:5px;
+    width:fit-content;
+    display: inline;
+    list-style: none; 
+}
+.nav2 .links ul li a{
+    text-decoration: none;
+    padding:5px;
+}
+.section2{
+    align-items: center;
+    justify-content: center;
+    width:100%;
+   
+}
+.section2 .contents {
+    background: rgb(243, 238, 238);
+    padding: 20px;
+}
+
+.section2 .contents .card1{
+    color:#fff;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin:15px;
+    width:40%;
+    height:300px;
+    background:linear-gradient(163deg, rgb(193, 191, 224) 0%, rgb(183, 47, 247) 0%, rgba(0,64,255,1) 100%);
+    border-radius: 6px;
+    padding:  30px;
+}
+.section2 .contents .card1:hover{
+    background: linear-gradient(-40deg,#e8c7f9 ,#ff006f );
+}
+
+.section2 .contents .card2{
+    display: inline-block;
+    position: relative;
+    margin:15px;
+    width:45%;
+    height:300px;
+    background:linear-gradient(163deg, rgba(2,0,36,1) 0%, rgb(208, 255, 1) 0%, rgb(0, 238, 255) 100%);
+    border-radius: 6px;
+    padding:  30px;
+}
+.section2 .contents .card2:hover{
+    background: linear-gradient(-40deg,#90e195 ,#c5feff );
+}
+.section2 .contents .card3{
+    display: inline-block;
+    position: relative;
+    margin:15px;
+    width:50%;
+    height:300px;
+    background:linear-gradient(163deg, rgba(2,0,36,1) 0%, rgb(255, 0, 0) 0%, rgb(203, 214, 245) 100%);
+    border-radius: 6px;
+    padding:  30px;
+}
+.section2 .contents .card3:hover{
+    background: linear-gradient(-40deg,#ffa7a6 ,#ffc629 );
+}
+.section2 .contents .card4{
+    display: inline-block;
+    position: relative;
+    margin:20px;
+    width:35%;
+    height:300px;
+    background:linear-gradient(163deg, rgb(149, 146, 205) 0%, rgb(240, 110, 136) 0%, rgb(227, 110, 1) 100%);
+    border-radius: 6px;
+    padding: 30px;
+}
+.section2 .contents .card4:hover{
+    background: linear-gradient(-40deg,#ff6f00 ,#ffed67 );
+}
+
+.section2 .contents .desc{
+    width: 100%;
+    padding: 20px;
+    color:#000000
+}
+
+.section2 .contents .desc h2{
+    font-size: 1.2em;
+    padding: 10px;
+}
+.section2 .contents .desc h1{
+    font-size: 1.4em;
+    padding: 5px;
+}
+.section2 .contents .desc p{
+    font-size:1em;
+    padding:10px;
+}
+.section2 .contents .desc a{
+    color: #000000;
+    text-decoration: none;
+    font-size: .8em;
+    padding: 20px;  
+}
+
+.section2 .contents .desc a:hover{
+    color:aliceblue
+}
+
+.footer{
+    width:100%;
+    height: 200px;
+    background: #9e9c9cbb;
+    padding: 30px; 
+    
+}
+.footer .products{
+    display: flex;
+    width:100%;
+    height:30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.footer .products p{
+    font-size: .7em;
+    cursor: pointer;
+}
+.footer .products .imgAdb{
+    width:25px;
+    padding: 20px;
+    cursor: pointer;
+}
+.footer h3{
+    font-size: .9em;
+    color:#404040;
+}
+hr{
+    color: #404040;
+    height: .3px;
+    margin:10px;
+}
+
+
+.footer .icons{
+    display: inline-flex;
+    width:100%;
+    height:40px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+
+.footer .icons ul{
+    display:flex ;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.footer .icons ul li i{
+   font-size: 25px;
+   color:rgb(107, 107, 107);
+   padding:20px;
+  
+}
+
+.footer .icons p{
+    font-size: 0.8em;
+}
+
+

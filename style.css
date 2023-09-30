@@ -274,21 +274,26 @@ body{
     padding: 20px;  
 }
 .section2 .contents .card1 img{
-    padding:50px 70px;
-
+    left:9%;
+    width: 450px;
+    position:absolute;
    
 }
 .section2 .contents .card2 img{
     width: 440px;
-    padding: 7px 150px;
+    left:20%;
+    bottom: 8%;
+    position:absolute;
 }
 .section2 .contents .card3 img{
-    
-    padding: 50px 160px;
+    position:absolute;
+    left:9%;
+    bottom: 3%;
 }
 .section2 .contents .card4 img{
-    
-    padding: 60px 30px;
+    position:absolute;
+    left:1%;
+    bottom: .1%;
     
 }
 .section2 .contents .desc a:hover{

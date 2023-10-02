@@ -1,3 +1,3 @@
 # AdobeClone.github.io
 
-<a href="https://abhikappana.github.io/AdobeClone.github.io/">Preview</a>
+<a href="https://abhikappana.github.io/AdobeClone/">Preview</a>
